@@ -1,7 +1,18 @@
-.container{
-    display: flex;
-    justify-content: end;
+html{
+    font-family: 'Open Sans', sans-serif;
 }
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logo{
+    padding-left: 5%;
+}
+
+/* Tombol Navigasi */
 
 .navigasi{
     border: 2px solid #393e46;
@@ -9,8 +20,10 @@
 }
 
 .navigasi-button{
+    color: black;
+    font-size: 25px;
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     border-right: 2px solid #393e46;
 }
@@ -19,6 +32,99 @@
     border-right: none;
 }
 
-.logo{
-    margin-right: auto;
+/* Tombol Navigasi */
+
+/* Batas Style Navigasi */
+
+
+/* Bagian Header Awal */
+.teks-header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: #3b4754;
+}
+
+h3{
+    color: #3b4754;
+}
+
+.h3-size{
+    font-size: 25px;
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    color: #798da3;
+}
+/* Bagian Header Akhir */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.frameImage{
+    width: 970px; 
+    height: 677px; 
+    background-color: #edf0f4; 
+    border-radius: 2%;
+}
+
+.p-teksMiring{
+    font-style: italic;
+}
+
+.row{
+    display: flex; 
+    flex-direction: row;
+}
+
+.textInFrame{
+    color: #9fafc1; 
+    background-color: #edf0f4; 
+    font-size: 30px; 
+    text-align: center; 
+    width: 45px; 
+    padding: 2%; 
+    border-radius: 50%;
+}
+
+input{
+    border: 5px solid #c9d3dd;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 25px;
+    padding-right: 20%;
+}
+
+.input-style{
+    padding-bottom: 15%;
+}
+
+select{
+    border: 5px solid #c9d3dd;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 25px;
+    padding-right: 53%;
+}
+
+button{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(41, 50, 61);
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 35px;
+    padding-right: 43%;
+    padding-left: 44%;
 }

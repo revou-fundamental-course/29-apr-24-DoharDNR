@@ -4,18 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="container">
-        <img src="https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" class="logo" width="40" height="40">
-
-        <div class="navigasi">
-            <a href="#/" class="navigasi-button">Home</a>
-            <a href="#/" class="navigasi-button">Our Package</a>
-            <a href="#/" class="navigasi-button">Call Us</a>
-        </div>
+    <!-- Batas Awal Navigasi -->
+    <nav class="container-nav">
+        <img src="https://assets-global.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" class="logo" width="50" height="50">
+        <nav>
+            <div class="navigasi">
+                <a href="#/" class="navigasi-button">Home</a>
+                <a href="#/" class="navigasi-button">Our Package</a>
+                <a href="#/" class="navigasi-button">Call Us</a>
+            </div>
+        </nav>
     </nav>
+    <!-- Batas Akhir Navigasi -->
     <hr>
+    <main>
+        <!-- Header -->
+        <div class="teks-header">
+            <h1>Your Trusted Travel Agent's</h1>
+            <p>Your Happiness is our hapiness</p>
+        </div>
+        <!-- Header -->
+        <br>
+        <section>
+            <div class="teks-header" style="width: 890px;">
+                <!-- Batas Bagian Kiri -->
+                <div class="frameImage">
+                    <img class=""  src="">
+                </div>
+                <div style="width: 800px; padding-left: 10%;">
+                    <p class="p-teksMiring" style="text-align: left;">"Liburan jadi menyenangkan bersama Travel Agentku"</p>
+                    <div class="row">
+                        <div class="frameImage" style="width: 100px; height: 100px; border-radius: 50%; margin: 20px;">
+                            <img src="" alt="">
+                        </div>
+                        <div style="padding-left: 1%;">
+                            <h3 style="font-size: 25px;">Forence Hughes</h3>
+                            <p class="p-teksMiring" style="font-size: 25px; color: #9fafc1;" >Ibu Rumah Tangga, 28</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-size: 30px; ">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefit of your servide or product</h3>
+                    <div class="row" >
+                        <h3 class="textInFrame">1</h3>
+                        <div style="width: 600px; padding-left: 5%;">
+                            <p style="font-size: 30px; text-align: start;">Your first feature, written in the form of a benefit statement</p>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <h3 class="textInFrame">2</h3>
+                        <div style="width: 600px; padding-left: 5%;">
+                            <p style="font-size: 30px; text-align: start;">Your second feature, written in the form of a benefit statement</p>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <h3 class="textInFrame">3</h3>
+                        <div style="width: 600px; padding-left: 5%;">
+                            <p style="font-size: 30px; text-align: start;">Your third feature written, in the form of a benefit statement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Batas Bagian Kiri -->
+
+            <!-- Batas Bagian Kanan -->
+            <div class="teks-header" style="width: 700px;">
+                <div style="padding: 15%; background-color: #edf0f4; border-radius: 20px;">
+                    <div class="">
+                        <h2 style="color: #3b4754; font-size: 35px;">Contact Us</h2>
+                    </div>
+                    <div>
+                        <p class="" style="font-size: 25px; text-align: start;">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                    </div>
+                    <form action="/daftar" method="get">
+                        <div class="input-style">
+                            <label for="name"><h3 class="h3-size">Your Name:</h3></label>
+                            <input type="text" placeholder="First and last name">
+                        </div>
+                        <div class="input-style">
+                            <label for="email"><h3 class="h3-size">Email Address:</h3></label>
+                            <input type="email" placeholder="example@email.com">
+                        </div>
+                        <div class="input-style">
+                            <label for="choose"><h3 class="h3-size">What are you interested in?</h3></label>
+                            <select name="choose" id="choose" class="select-style" aria-placeholder="Select Option">
+                                <option value="">Select Option</option>
+                            </select>
+                        </div>
+                        <div class="input-style">
+                            <button type="submit">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
