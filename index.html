@@ -106,28 +106,31 @@
                     <div>
                         <p class="" style="font-size: 25px; text-align: start;">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
                     </div>
-                    <form action="/daftar" method="get">
+                    <form action="" method="post" name="message-form" onsubmit="return validationForm()">
                         <div class="input-style">
-                            <label for="name"><h3 class="h3-size">Your Name:</h3></label>
-                            <input type="text" placeholder="First and last name">
+                            <label><h3 class="h3-size">Your Name:</h3></label>
+                            <input type="text" placeholder="First and last name" id="name-input" name="nama">
+                            <p style="font-size: 20px;" id="error-name"></p>
                         </div>
                         <div class="input-style">
-                            <label for="email"><h3 class="h3-size">Email Address:</h3></label>
-                            <input type="email" placeholder="example@email.com">
+                            <label><h3 class="h3-size">Email Address:</h3></label>
+                            <input type="email" placeholder="example@email.com" id="email-input" name="email" >
+                            <p style="font-size: 20px;" id="error-email"></p>
                         </div>
                         <div class="input-style">
                             <label for="choose"><h3 class="h3-size">What are you interested in?</h3></label>
-                            <select name="choose" id="choose" class="select-style" aria-placeholder="Select Option">
-                                <option>Select Option</option>
+                            <select name="destinasi" id="choose-input" class="select-style">
+                                <option value="">Select Option</option>
                                 <option value="bali">Destination To Bali</option>
                                 <option value="japan">Destination To Japan</option>
                                 <option value="singapore">Destination To Singapore</option>
                                 <option value="bandung">Destination To Bandung</option>
                                 <option value="surabaya">Destination To Surabaya</option>
                             </select>
+                            <p style="font-size: 20px;" id="error-choose"></p>
                         </div>
                         <div class="input-style">
-                            <button type="submit">SEND</button>
+                            <button type="submit" id="submit">SEND</button>
                         </div>
                     </form>
                 </div>
@@ -201,7 +204,7 @@
             <div>
                 <h1>Your Closing Argument headline</h1>
                 <p style="margin-left: auto; margin-right: auto; display: block; font-size: 30px; width: 70%; padding-bottom: 5%;">Suspendisse egestas rhoncus urna in biblendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio val erat fringilla,</p>
-                <button style="padding-left: 100px; padding-right: 100px; margin-left: auto; margin-right: auto; display: block;">CALL TO ACTION</button>
+                <button id="hubungi" style="padding-left: 100px; padding-right: 100px; margin-left: auto; margin-right: auto; display: block;">CALL TO ACTION</button>
             </div>
         </section>
     </main>
